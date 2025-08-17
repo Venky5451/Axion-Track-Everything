@@ -1,0 +1,1 @@
+pnpm dlx degit redpangilinan/tracker

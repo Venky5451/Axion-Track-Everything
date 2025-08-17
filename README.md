@@ -15,7 +15,7 @@ Iotawise is an open-source habit tracking app that lets you track daily habits a
 - Habit/Activity Tracking
 - Activity Streak Monitoring
 - Dashboard Analytics
-- Google and Email Authentication
+- Google Authentication
 - Web Push Notifications
 - Cross-platform Support (PWA)
 
@@ -32,4 +32,7 @@ Iotawise is an open-source habit tracking app that lets you track daily habits a
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
+<<<<<<< HEAD
 >>>>>>> 666d024 (Initial commit)
+=======
+>>>>>>> 70b035f (docs: update)

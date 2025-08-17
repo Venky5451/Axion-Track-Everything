@@ -14,8 +14,8 @@ import {
   AiOutlineWarning,
   AiOutlinePlus,
 } from "react-icons/ai"
-import { MdDeleteForever, MdOutlineLogout } from "react-icons/md"
-import { BiHistory, BiCalendar } from "react-icons/bi"
+import { MdDeleteForever, MdOutlineLogout, MdEdit } from "react-icons/md"
+import { BiCalendar, BiHistory, BiDollarCircle, BiCheckSquare, BiCheck,  BiTime, BiError} from "react-icons/bi"
 import { FaUserAlt, FaSort } from "react-icons/fa"
 import { ImSpinner8, ImStatsBars } from "react-icons/im"
 import { RxDashboard, RxMixerHorizontal } from "react-icons/rx"
@@ -30,6 +30,11 @@ export const Icons: IconsType = {
   dashboard: RxDashboard,
   activity: BsActivity,
   settings: LuSettings,
+  dollarSign: BiDollarCircle,
+  checkSquare: BiCheckSquare,
+  check: BiCheck,
+  clock: BiTime,
+  alertTriangle: BiError,
 
   // Mode Toggle
   moon: BsMoonStars,
@@ -40,6 +45,7 @@ export const Icons: IconsType = {
   next: BsChevronRight,
   up: BsChevronUp,
   down: BsChevronDown,
+  
 
   // Common
   trash: MdDeleteForever,
@@ -57,3 +63,5 @@ export const Icons: IconsType = {
   mixer: RxMixerHorizontal,
   check: BsCheck2,
 }
+
+
