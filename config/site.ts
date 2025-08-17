@@ -3,7 +3,7 @@ import { SiteConfig } from "@/types"
 import { env } from "@/env.mjs"
 
 export const siteConfig: SiteConfig = {
-  name: "Iotawise",
+  name: "Track",
   author: "redpangilinan",
   description:
     "Track daily habits and monitor your progress with little effort.",

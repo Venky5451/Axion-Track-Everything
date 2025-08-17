@@ -58,12 +58,12 @@ export async function DELETE(
       return new Response(null, { status: 403 })
     }
 
-    // Delete the activity
-    await db.activity.delete({
-      where: {
-        id: params.activityId as string,
-      },
-    })
+      // Delete the activity
+      await db.activity.delete({
+        where: {
+          id: params.activityId as string,
+        },
+      })
 
     return new Response(null, { status: 204 })
   } catch (error) {

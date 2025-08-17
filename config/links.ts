@@ -6,18 +6,26 @@ export const navLinks: Navigation = {
       title: "Home",
       href: "/",
     },
-    {
-      title: "Features",
-      href: "/#features",
-    },
-    {
-      title: "Overview",
-      href: "/#overview",
-    },
+    // {
+    //   title: "Features",
+    //   href: "/#features",
+    // },
+    // {
+    //   title: "Overview",
+    //   href: "/#overview",
+    // },
     {
       title: "Dashboard",
       href: "/dashboard",
     },
+          {
+        title: "Finance",
+        href: "/finance",
+      },
+      {
+        title: "Routine",
+        href: "/routine",
+      },
   ],
 }
 
@@ -33,6 +41,16 @@ export const dashboardLinks: Navigation = {
       href: "/dashboard/activities",
       icon: "activity",
     },
+          {
+        title: "Finance",
+        href: "/finance",
+        icon: "dollarSign",
+      },
+      {
+        title: "Routine",
+        href: "/routine",
+        icon: "calendar",
+      },
     {
       title: "Settings",
       href: "/dashboard/settings",

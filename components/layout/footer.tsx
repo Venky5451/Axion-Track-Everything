@@ -38,12 +38,12 @@ export default function Footer() {
             © {new Date().getFullYear()}{" "}
             <a
               target="_blank"
-              href="https://github.com/redpangilinan/iotawise"
+                              href="https://github.com/redpangilinan/iotawise"
               className="hover:underline"
             >
-              Iotawise App
+              Tracker
             </a>
-            . All Rights Reserved.
+            
           </div>
         </div>
       </div>

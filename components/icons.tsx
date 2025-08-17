@@ -6,7 +6,7 @@ import {
   AiOutlinePlus,
   AiOutlineWarning,
 } from "react-icons/ai"
-import { BiCalendar, BiHistory } from "react-icons/bi"
+import { BiCalendar, BiHistory, BiDollarCircle, BiCheckSquare, BiCheck, BiTime, BiError } from "react-icons/bi"
 import {
   BsActivity,
   BsCheck2,
@@ -21,7 +21,7 @@ import {
 import { FaRegStar, FaSort, FaUserAlt } from "react-icons/fa"
 import { ImSpinner8, ImStatsBars } from "react-icons/im"
 import { LuSettings } from "react-icons/lu"
-import { MdDeleteForever, MdOutlineLogout } from "react-icons/md"
+import { MdDeleteForever, MdOutlineLogout, MdEdit } from "react-icons/md"
 import { RxDashboard, RxMixerHorizontal } from "react-icons/rx"
 
 export type IconKeys = keyof typeof icons
@@ -39,6 +39,11 @@ const icons = {
   dashboard: RxDashboard,
   activity: BsActivity,
   settings: LuSettings,
+  dollarSign: BiDollarCircle,
+  checkSquare: BiCheckSquare,
+  check: BiCheck,
+  clock: BiTime,
+  alertTriangle: BiError,
 
   // Mode Toggle
   moon: BsMoonStars,
@@ -50,9 +55,13 @@ const icons = {
   up: BsChevronUp,
   down: BsChevronDown,
   close: AiOutlineClose,
+  chevronLeft: BsChevronLeft,
+  chevronRight: BsChevronRight,
 
   // Common
   trash: MdDeleteForever,
+  edit: MdEdit,
+  x: AiOutlineClose,
   spinner: ImSpinner8,
   userAlt: FaUserAlt,
   ellipsis: AiOutlineEllipsis,
@@ -65,7 +74,7 @@ const icons = {
   fire: BsFire,
   statsBar: ImStatsBars,
   mixer: RxMixerHorizontal,
-  check: BsCheck2,
+  check2: BsCheck2,
   star: FaRegStar,
 }
 

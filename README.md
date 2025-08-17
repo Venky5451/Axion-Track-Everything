@@ -1,6 +1,6 @@
-# Iotawise
+# Tracker
 
-Iotawise is an open-source habit tracking app that lets you track daily habits and monitor your activity streaks and progress with little effort.
+Tracker is an open-source habit tracking app that lets you track daily habits and monitor your activity streaks and progress with little effort.
 
 ![og image](/public/og.jpg)
 

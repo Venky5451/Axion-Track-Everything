@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <FeatureCards />
-      <Overview />
-      <OpenSource />
-      <PWARedirect />
+      {/* <FeatureCards /> */}
+      {/* <Overview /> */}
+      {/* <OpenSource /> */}
+      {/* <PWARedirect /> */}
     </main>
   )
 }

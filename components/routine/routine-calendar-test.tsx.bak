@@ -1,0 +1,20 @@
+"use client"
+
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+
+interface RoutineCalendarProps {
+  viewMode: "daily" | "weekly" | "monthly"
+}
+
+export function RoutineCalendarTest({ viewMode }: RoutineCalendarProps) {
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Test Calendar</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <p>This is a test component</p>
+      </CardContent>
+    </Card>
+  )
+}
